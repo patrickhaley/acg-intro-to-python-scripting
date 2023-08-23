@@ -54,9 +54,9 @@ for i in range(length):
 ### Task 4: Test the File
 
 1. Save and exit the file:
-   1.1 Press Escape
-   1.2 Type :wq
-   1.3 Press Enter
+   1. Press Escape
+   2. Type `:wq`
+   3. Press Enter
 2. Execute the file:
 
 ```
