@@ -1,3 +1,5 @@
+# This code prints a diamond shape using astrisks
+# The user can change the value of length to change the size of the diamond
 length = 7
 astr = "*"
 for i in range(length):

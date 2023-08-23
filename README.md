@@ -28,13 +28,13 @@ This course provides an introduction to Python scripting. Learn the basics of Py
 ### Task 2: Write Two "for" Loops to Draw a Pyramid
 
 ```
-    length = 10
-    astr = "*"
-        for i in range(length):
-            for j in range(length-i):
-                print(" ", end='')
-            print(astr)
-            astr += "**"
+length = 10
+astr = "*"
+    for i in range(length):
+        for j in range(length-i):
+            print(" ", end='')
+        print(astr)
+        astr += "**"
 ```
 
 ### Task 3: Write a Loop to Draw an Upside-Down Pyramid
