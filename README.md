@@ -1,6 +1,7 @@
 # A Cloud Guru: Introduction to Python Scripting
 
 ## Course Overview
+
 This course provides an introduction to Python scripting. Learn the basics of Python programming and how to use it for scripting tasks.
 
 **Course Link:** [Introduction to Python Scripting](https://learn.acloud.guru/course/introduction-to-python-scripting/overview)
@@ -13,18 +14,20 @@ This course provides an introduction to Python scripting. Learn the basics of Py
 
 1. Create a file called `asciiShape.py`:
    ```
-   touch asciiShape.py```
+   touch asciiShape.py
+   ```
 2. Make it executable:
-    ```
-    chmod +x asciiShape.py
-    ```
+   ```
+   chmod +x asciiShape.py
+   ```
 3. Insert the instruction for the Python interpreter path at the beginning of the file:
-    ```
-    vim asciiShape.py
-    #!/usr/bin/env python3
-    ```
+   ```
+   vim asciiShape.py
+   ```
+
 ### Task 2: Write Two "for" Loops to Draw a Pyramid
-    ```
+
+```
     length = 10
     astr = "*"
         for i in range(length):
@@ -32,8 +35,10 @@ This course provides an introduction to Python scripting. Learn the basics of Py
                 print(" ", end='')
             print(astr)
             astr += "**"
-    ```
+```
+
 ### Task 3: Write a Loop to Draw an Upside-Down Pyramid
+
 ```
 length -= 1
 space = 1
@@ -45,15 +50,19 @@ for i in range(length):
     astr = "*" * astrNum
     space += 1
 ```
+
 ### Task 4: Test the File
+
 1. Save and exit the file:
-1.1 Press Escape
-1.2 Type :wq
-1.3 Press Enter
+   1.1 Press Escape
+   1.2 Type :wq
+   1.3 Press Enter
 2. Execute the file:
+
 ```
 python asciiShape.py
 ```
+
 ## Lab: Writing Four Functions to Perform Different Arithmetic Operations in Python
 
 **Lab Link:** [Writing Four Functions to Perform Different Arithmetic Operations in Python](https://learn.acloud.guru/course/introduction-to-python-scripting/learn/c304156a-81fb-486e-90ad-104de350947e/a9908b71-baa7-4734-8fa1-0a833d48c674/lab/a9908b71-baa7-4734-8fa1-0a833d48c674)
